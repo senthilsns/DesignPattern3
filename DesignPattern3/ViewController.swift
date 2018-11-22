@@ -26,7 +26,6 @@ class ViewController: UIViewController {
         let  autonomousSedan  = AutonomousCar(car:sedan)
         autonomousSedan.drive()
         
-        
     }
 
 }
