@@ -13,5 +13,5 @@ Language : Swift 4.2
          
 2. FlyWeight Pattern
 
-             Flyweight is about sharing. It holds a pool to store objects. 
-             The client will reuse existing objects in the pool.
+         Flyweight is about sharing. It holds a pool to store objects. 
+         The client will reuse existing objects in the pool.
