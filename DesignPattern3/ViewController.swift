@@ -16,6 +16,9 @@ class ViewController: UIViewController {
     
         // Decorator Pattern
         decoratorPattern()
+        
+        // FlyWeight Pattern
+        flyWeightPattern()
     
     }
 
@@ -27,6 +30,14 @@ class ViewController: UIViewController {
         autonomousSedan.drive()
         
     }
-
+    
+    //MARK: FlyWeight Pattern
+    func flyWeightPattern() {
+        
+        let person = Person()
+        let bike = person.getBike(color: .red)
+        bike.ride()
+        
+    }
 }
 
