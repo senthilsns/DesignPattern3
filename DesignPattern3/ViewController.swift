@@ -19,6 +19,9 @@ class ViewController: UIViewController {
         
         // FlyWeight Pattern
         flyWeightPattern()
+        
+        // Builder Pattern
+        builderPattern()
     
     }
 
@@ -38,6 +41,16 @@ class ViewController: UIViewController {
         let bike = person.getBike(color: .red)
         bike.ride()
         
+    }
+    
+    //MARK: Builder Pattern
+    func builderPattern() {
+        
+        let builder = ThemeBuilder()
+        let light = builder.build(style: .light)
+        let dark = builder.build(style: .dark)
+        print(light)
+        print(dark)
     }
 }
 

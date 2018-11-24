@@ -13,6 +13,7 @@
 		8D80451D21A6824800193715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D80451C21A6824800193715 /* Assets.xcassets */; };
 		8D80452021A6824800193715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D80451E21A6824800193715 /* LaunchScreen.storyboard */; };
 		8D840B2421A7D42100EDF0DA /* FlyWeightPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D840B2321A7D42100EDF0DA /* FlyWeightPattern.swift */; };
+		8DC581D721A9232300F13FA0 /* BuilderPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC581D621A9232300F13FA0 /* BuilderPattern.swift */; };
 		8DE16FF821A6DDF20032C06C /* DecoratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE16FF721A6DDF20032C06C /* DecoratorPattern.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		8D80451F21A6824800193715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D80452121A6824800193715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D840B2321A7D42100EDF0DA /* FlyWeightPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyWeightPattern.swift; sourceTree = "<group>"; };
+		8DC581D621A9232300F13FA0 /* BuilderPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderPattern.swift; sourceTree = "<group>"; };
 		8DE16FF721A6DDF20032C06C /* DecoratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 				8D80451721A6824500193715 /* ViewController.swift */,
 				8DE16FF721A6DDF20032C06C /* DecoratorPattern.swift */,
 				8D840B2321A7D42100EDF0DA /* FlyWeightPattern.swift */,
+				8DC581D621A9232300F13FA0 /* BuilderPattern.swift */,
 				8D80451C21A6824800193715 /* Assets.xcassets */,
 				8D80452121A6824800193715 /* Info.plist */,
 			);
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DC581D721A9232300F13FA0 /* BuilderPattern.swift in Sources */,
 				8D80451821A6824500193715 /* ViewController.swift in Sources */,
 				8DE16FF821A6DDF20032C06C /* DecoratorPattern.swift in Sources */,
 				8D840B2421A7D42100EDF0DA /* FlyWeightPattern.swift in Sources */,
