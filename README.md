@@ -20,3 +20,7 @@ Language : Swift 4.2
 
          The intent of the Builder design pattern is to separate the construction of a complex object 
          from its representation.
+
+4. Prototype Pattern
+
+         The prototype design pattern is used to create clones of a base object
