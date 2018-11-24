@@ -22,6 +22,9 @@ class ViewController: UIViewController {
         
         // Builder Pattern
         builderPattern()
+        
+        // Prototype Pattern
+        prototypePattern()
     
     }
 
@@ -51,6 +54,24 @@ class ViewController: UIViewController {
         let dark = builder.build(style: .dark)
         print(light)
         print(dark)
+    }
+    
+    //MARK: Prototype Pattern
+    func prototypePattern(){
+        
+        let base = Paragraph()
+        
+        // #1
+        let title = base.clone()
+        title.font = UIFont.systemFont(ofSize: 18)
+        title.text = "This is the Title"
+        print(title.text)
+        
+        // #2
+        let first = base.clone()
+        first.text = "First Paragraph"
+        print(first.text)
+
     }
 }
 
