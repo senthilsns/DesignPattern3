@@ -15,3 +15,8 @@ Language : Swift 4.2
 
          Flyweight is about sharing. It holds a pool to store objects. 
          The client will reuse existing objects in the pool.
+
+3. Builder Pattern
+
+         The intent of the Builder design pattern is to separate the construction of a complex object 
+         from its representation.
