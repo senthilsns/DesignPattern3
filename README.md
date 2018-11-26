@@ -24,3 +24,8 @@ Language : Swift 4.2
 4. Prototype Pattern
 
          The prototype design pattern is used to create clones of a base object
+
+5. Command Pattern
+
+         Command pattern is a very simple pattern that allows you to decouple a class that 
+         invokes a command from a class that knows how to perform it.
