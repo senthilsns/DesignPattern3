@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         // Prototype Pattern
         prototypePattern()
     
+        // Command Pattern
+        commandPattern()
     }
 
     //MARK: Decorator Pattern
@@ -72,6 +74,15 @@ class ViewController: UIViewController {
         first.text = "First Paragraph"
         print(first.text)
 
+    }
+    
+    
+    //MARK: Command Pattern
+    func commandPattern(){
+        
+        let invoker = Invoker()
+        let concreteCommand = ConcreteCommand()
+        invoker.execute(command: concreteCommand)
     }
 }
 
